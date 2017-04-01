@@ -12,6 +12,7 @@ clone the repo
 
 `$ npm run start`
 
+# About create-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
