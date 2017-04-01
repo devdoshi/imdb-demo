@@ -5,7 +5,6 @@ class ImdbApiClient {
 	fetchEpisodesForSeries(seriesName, callback) {
 		return get(seriesName)
 			.then(series => {
-				console.log(series);
 				if (series.series) {
 					series
 						.episodes()
