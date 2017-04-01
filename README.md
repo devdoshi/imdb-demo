@@ -6,6 +6,8 @@ I made the UI using create-react-app for scaffolding and redux for state managem
 # to run the API and UI servers...
 clone the repo
 
+make sure you have node version 6+ installed
+
 `$ npm install`
 
 `$ npm run start-api`
