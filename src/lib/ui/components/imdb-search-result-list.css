@@ -1,0 +1,8 @@
+.imdb-search__container {
+    padding: 2em;
+}
+
+.imdb-search__container li {
+    padding: .5em;
+    margin: 0;
+}
