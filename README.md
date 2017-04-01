@@ -1,13 +1,17 @@
 # Summary
-I made the UI using create-react-app for scaffolding and redux for state management.
-
 The API server uses express to serve an endpoint which accepts a search query from the UI. It uses imdb-api to find a matching TV series for the query and returns the series metadata and its episodes. If the matching result is not a TV series, it is considered a failure.
 
-Given a valid result, the UI will render some basic show metadata and a list of episodes with links to the corresponding IMDB page.
+I made the UI using create-react-app for scaffolding and redux for state management. It has a search box and a button. When the button is pressed, it will hit the api with the search box's value as the query. Given a valid result, the UI will render some basic show metadata and a list of episodes with links to the corresponding IMDB page.
 
 # to run the API and UI servers...
+clone the repo
+
+`$ npm install`
+
 `$ npm run start-api`
+
 `$ npm run start`
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
